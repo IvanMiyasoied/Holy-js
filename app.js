@@ -48,19 +48,88 @@
 
   
   
-  let numberOfGuests = 6
   
-  
-  function getDrinks (numberOfGuests) {
-     shots = []
-     orders = 1
-    
-    while (orders <= numberOfGuests) {
-      shots.push(orders++)
-    }
-    total = shots.reduce((sum,current) => sum + current)
-     return total
+  // let numberOfGuests = 6
+  // 
+  // function getDrinks (numberOfGuests) {
+    //  shots = []
+    //  orders = 1
+    // 
+    // while (orders <= numberOfGuests) {
+      // shots.push(orders++)
+    // }
+    // total = shots.reduce((sum,current) => sum + current)
+    //  return total
+// 
+  // }
+  // getDrinks(6)
+  // console.log(total)
 
-  }
-  getDrinks(6)
-  console.log(total)
+
+  // function calculateProfit (amount,percent,period) {
+  // start = 0 
+  // while (start < period) {
+      // year = amount + amount*percent/100;
+      // start ++
+      // year1 = year + year*percent/100
+      // start ++
+      // year2 = year1 + year1*percent/100
+      // start ++
+      // year3 = year2 + year2*percent/100
+      // start ++
+      // year4 = year3 + year3*percent/100
+      // start ++
+      // year5 = year4 + year4*percent/100
+      // start ++
+      // year6 = year5 + year5*percent/100
+      // start ++
+      // year7 = year6 + year6*percent/100
+      // start ++
+      // year8 = year7 + year7*percent/100
+      // start ++
+      // year9 = year8 + year8*percent/100
+      // start ++
+      // year10 = year9 + year9*percent/100
+      // start ++
+      // year11 = year10 + year10*percent/100
+      // start ++
+// 
+    // }
+    // profit = Math.round(year11) - amount
+// 
+  // }
+  // calculateProfit(12500,3,12)
+  // console.log(profit)
+
+
+  
+  
+
+// weekday = 'wednesday'
+    // switch (weekday) {
+      // case 'monday' : 
+        // alert('Write a new module of the program');
+      // break;
+      // case 'tuesday' :
+        // alert('Test the moduls and find bugs');
+        // break;
+      // case 'wednesday' :
+        // alert('Write another module of the program');
+        // break;
+      // case 'thursday'  :
+        // alert('test the next new module');
+        // break;
+      // case 'friday'  :
+        // alert('You need to meet boss today');
+        // break;
+      // case 'saturday'  :
+        // alert('Spend the evening with your friends');
+        // break;
+      // case 'sunday'  : 
+        // alert('Go to the movie in the evening');
+        // default :
+        // alert('Entered the wrong day of the week');
+    // }
+  
+
+    
