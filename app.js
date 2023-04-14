@@ -132,4 +132,71 @@
     // }
   
 
+  
+// let number = 53
+// 
+  // function getPaymentSystem (number) {
+  //  switch (number) {
+      // case 51 : 
+        // alert ('you use MasterCard');
+        // break;
+      // case 52 : 
+        // alert ('you use MasterCard');
+        // break;  
+      // case 53 : 
+        // alert ('you use MasterCard');
+        // break;
+      // case 54 : 
+        // alert ('you use MasterCard');
+        // break;
+      // case 55 : 
+        // alert ('you use MasterCard');
+        // break;
+      // case 63 : 
+        // alert ('you use Maestro');
+        // break;
+      // case 67 : 
+        // alert ('you use Maestro');
+        // break;  
+      // case 4 : 
+        // alert ('you use Visa');
+        // break;
+      // case 54 : 
+        // alert ('you use AmericanExpress');
+        // break;
+      // case 55 : 
+        // alert ('you use AmericanExpress');
+        // break;
+        // default ('you use unknown payment system');
+  //  }
+    // 
+// }
+// 
+// getPaymentSystem (number)
+// console.log(getPaymentSystem)
+
+
+let commnds = {
+  'forward' : {
+      'x' : 0,
+      'y' : 1
+}, 'back' : {
+      'x' : 0,
+      'y' : -1
+}, 'right' : {
+      'x' : 1,
+      'y' : 0
+}, 'left' : {
+      'x' : -1,
+      'y' : 0
+}, 'stop' : {
+      'x' : 0,
+      'y' : 0
+},
+}
+
+let direction = 'forward'
+
+function getDirection (direction) {
     
+}
