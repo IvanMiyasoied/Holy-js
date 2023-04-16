@@ -176,7 +176,7 @@
 // console.log(getPaymentSystem)
 
 
-let commnds = {
+let commands = {
   'forward' : {
       'x' : 0,
       'y' : 1
@@ -199,4 +199,25 @@ let direction = 'forward'
 
 function getDirection (direction) {
     
+  switch (direction) {
+    case 'forward' : 
+    console.log(commands.forward);
+    break;
+    case 'back' : 
+    console.log(commands.back);
+    break;
+    case 'right' : 
+    console.log(commands.right);
+    break;
+    case 'left' : 
+    console.log(commands.left);
+    break;
+    case 'stop' : 
+    console.log (commands.stop);
+    break;
+    default : console.log(commands.stop);
+  }
+
 }
+
+getDirection('forward')
